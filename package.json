@@ -1,0 +1,21 @@
+{
+  "name": "mini-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "astro build",
+    "server": "nodemon server.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "astro": "^4.12.3",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@astrojs/react": "^3.6.1",
+    "nodemon": "^3.1.4"
+  }
+}
